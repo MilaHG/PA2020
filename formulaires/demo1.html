@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulaire</h1>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>Identité</legend>
+            
+            <label for="pseudo">Pseudo *</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Jean" required>
+            <br>
+            <label for="mdp">MDP *</label>
+            <input type="password" id="mdp" name="mdp" placeholder="MDP">
+            <br>
+            <label for="email">Mail *</label>
+            <input type="email" id="email" name="email" placeholder="moi@moi.fr">
+            <br>
+            <label for="destination">destination</label>
+            <select name="destination" id="destination">
+                <option value="">choisir</option>
+                <option value="fr">Français</option>
+                <option value="an">Anglais</option>
+                <option value="it">Italien</option>
+            </select>
+            <br>
+            <label for="jauge">jauge</label>
+            <input type="range" min="0" max="100" value="20" id="jauge">
+            <br>
+            <label for=""></label>
+            <input type="color">
+        </fieldset>
+            
+        <input type="reset" value="Effacer">
+
+
+    </form>
+</body>
+</html>

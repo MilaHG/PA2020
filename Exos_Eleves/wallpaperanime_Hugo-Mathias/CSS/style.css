@@ -1,0 +1,75 @@
+* {
+    color:white;
+}
+
+
+body {
+    background-color: black;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+nav ul li:hover {
+    background-color: rgb(105, 211, 206);
+    transition: 0.4s;
+}
+
+nav ul li {
+    display: inline-block;
+    border: solid 4px #32ADB6;
+    margin: 10px;
+    padding: 20px;
+    background-color: #a6c6c9;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+}
+/* H1 */
+.titre1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+/* cataloguel1 */
+
+
+#cataloguel1 {
+    display: flex;
+}
+
+#cataloguel1 > img {
+    width: calc(100%/3);
+    margin: 50px;
+}
+
+/* one piece */
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+.onepiece {
+    display: inline-block;
+}
+
+/* naruto */
+
+.naruto {
+    display: inline-block;
+}
+
+
+
